@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigProject/BigProject.iml" filepath="$PROJECT_DIR$/BigProject/BigProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CCF-CSP/CCF-CSP.iml" filepath="$PROJECT_DIR$/CCF-CSP/CCF-CSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavendemo/mavendemo.iml" filepath="$PROJECT_DIR$/mavendemo/mavendemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise01/practise01.iml" filepath="$PROJECT_DIR$/practise01/practise01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise02/practise02.iml" filepath="$PROJECT_DIR$/practise02/practise02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise03/practise03.iml" filepath="$PROJECT_DIR$/practise03/practise03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project01.iml" filepath="$PROJECT_DIR$/project01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
