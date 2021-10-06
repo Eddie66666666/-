@@ -5,43 +5,33 @@ import java.util.Scanner;
  * @create 2021-9-18-14:53
  */
 public class Main {
-    int max(int a,int b){
-        int max=0;
-        if(a>b){
-            max=a;
-        }else {
-            max = b;
-        }
-
-        return max;
-    }
-    int min(int a,int b){
-        int min=0;
-        if(a<b){
-            min=a;
-        }else{
-            min=b;
-        }
-        return min;
-    }
 
     boolean average(int[][] score,int i,int j,int k,int t,int length){
-        int a=max(0,i-k);
-        int b=max(j-k,0);
-        int c=min(i+k,length);
-        int d=min(j+k,length);
-        int number=(c-a+1)*(d-b+1);
-        int sum=0;
-        for(int n1=a;a<=c;a++){
-            for(int n2=b;b<=d;b++){
+        int a=Math.max(0,i-k);
+        int b=Math.max(j-k,0);
+        int c=Math.min(i+k,length-1);
+        int d=Math.min(j+k,length-1);
+//        System.out.println("a"+a);
+//        System.out.println("b"+b);
+//        System.out.println("c"+c);
+//        System.out.println("d"+d);
+        double number=(c-a+1)*(d-b+1);
+        double sum=0.0;
+        for(int n1=a;n1<=c;n1++){
+            for(int n2=b;n2<=d;n2++){
+//                System.out.println("数据"+score[n1][n2]);
                 sum+=score[n1][n2];
             }
         }
+//        System.out.println(sum);
+//        System.out.println(number);
         double average=sum/number;
-        if(average>=t){
+//        System.out.println("平均数"+average);
+        if(average<=t){
             return true;
         }else{
             return false;
+
         }
     }
 
@@ -59,6 +49,11 @@ public class Main {
                 score[i][j]=in.nextInt();
             }
         }
+//        for (int i=0;i<n;i++){
+//            for(int j=0;j<n;j++){
+//                System.out.print(score[i][j]);
+//            }
+//        }
         int count=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
