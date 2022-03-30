@@ -9,7 +9,12 @@
       <module fileurl="file://$PROJECT_DIR$/practise01/practise01.iml" filepath="$PROJECT_DIR$/practise01/practise01.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise02/practise02.iml" filepath="$PROJECT_DIR$/practise02/practise02.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise03/practise03.iml" filepath="$PROJECT_DIR$/practise03/practise03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise04/practise04.iml" filepath="$PROJECT_DIR$/practise04/practise04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise05/practise05.iml" filepath="$PROJECT_DIR$/practise05/practise05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise06/practise06.iml" filepath="$PROJECT_DIR$/practise06/practise06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise07/practise07.iml" filepath="$PROJECT_DIR$/practise07/practise07.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01.iml" filepath="$PROJECT_DIR$/project01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
